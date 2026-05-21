@@ -8,8 +8,8 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/jackc/pgx/v5/pgxpool"
 
-	"github.com/tfrfrfr/crm-telesales-backend/internal/config"
-	"github.com/tfrfrfr/crm-telesales-backend/internal/handler"
+	"github.com/TinoIf/crm-telesales-backend/internal/config"
+	"github.com/TinoIf/crm-telesales-backend/internal/handler"
 )
 
 func main() {

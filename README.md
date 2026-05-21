@@ -24,7 +24,7 @@ Backend REST API untuk sistem CRM Telemarketing, dibangun untuk menstandarisasi 
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/USERNAME/crm-telesales-backend.git
+git clone https://github.com/TinoIf/crm-telesales-backend.git
 cd crm-telesales-backend
 
 # 2. Setup environment

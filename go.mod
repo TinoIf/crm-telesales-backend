@@ -1,4 +1,4 @@
-module github.com/tfrfrfr/crm-telesales-backend
+module github.com/TinoIf/crm-telesales-backend
 
 go 1.25.3
 
