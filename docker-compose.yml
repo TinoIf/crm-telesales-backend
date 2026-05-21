@@ -1,0 +1,17 @@
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: crm_postgres
+    environment:
+      POSTGRES_DB: crm_telemarketing
+      POSTGRES_USER: crm_admin
+      POSTGRES_PASSWORD: rahasiaCRM-Eclectic2026*
+    ports:
+      - "5433:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./database:/docker-entrypoint-initdb.d
+    restart: unless-stopped
+
+volumes:
+  pgdata:
